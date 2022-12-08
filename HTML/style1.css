@@ -1,24 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif:regular);
 @import url(https://fonts.googleapis.com/css2?family=B612+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Farro:300,regular,500,700);
+
+
+/*  navbar-background  */ 
 .navbar {
     background-color:black;
 }
+
+/*  logo  */
 header img {
     width: 300px;
     height: 55.4px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 20px;
+    margin-bottom:10px;
 }
 
+/*  links to other pages  */
 nav {
     float:right;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
     
 }
 
-.navbar a{
+/* home/about/contact  */
+.navbar a {
     font-family: roboto;
     font-size:18px;
     font-weight:700;
@@ -28,30 +37,54 @@ nav {
     margin-right: 10px;
 }
 
-.central {
-    background-image:url(https://derajyojith-draft.superhi.com/laura-chouette-blurred-2.jpg)
+/*  hover for home/about/contact */
+.navbar a:hover {
+    color:#f3c5c7;
 }
+
+/*  central part of page  */
+.central {
+    background-image:url(https://derajyojith-draft.superhi.com/laura-chouette-blurred-2.jpg);
+    padding-bottom:200px;
+    position: right center;
+    background-size: cover
+}
+
 
 body {
     background-color: #f3c5c7;
-    background-size: cover;
-    background-position: right center;
 }
+
+
 
 h1{
     font-family: Bree Serif;
-    font-size: 64px;
+    font-size: 70px;
     line-height: 1.2;
     text-transform: capitalize;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.5;
     text-align: center;
+    padding-top:200px;
+    font-weight:500;
+    margin:0px
 }
 
 dl {
-    font-family: 'B612 Mono', monospace;
+    font-family: farro;
     text-transform: uppercase;
     margin-top: 15px;
     margin-bottom: 20px;
     letter-spacing: 6px;
     text-align: center;
+    font-size:18px;
+}
+
+dt {
+    padding-left:-30px;
+}
+
+dd {
+    padding-left:-50px;
+    margin:0px;
+    margin-top:5px;
 }
