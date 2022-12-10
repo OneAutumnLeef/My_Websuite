@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Farro:300,regular,500,700);
 
 
+
 /*  navbar-background  */ 
 .navbar {
     background-color:black;
@@ -11,18 +12,21 @@
     top:0;
     width:100%;
     left:0;
+    height:70px;    
 
 
 }
+
 
 /*  logo  */
 header img {
     width: 300px;
     height: 55.4px;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-left: 20px;
-    margin-bottom:10px;
 }
+
+
 
 /*  links to other pages  */
 nav {
@@ -31,6 +35,8 @@ nav {
     padding-top: 25px;
     
 }
+
+
 
 /* home/about/contact  */
 .navbar a {
@@ -41,31 +47,37 @@ nav {
     color: #fdf5f3;
     text-decoration: none;
     margin-right: 25px;
+    margin-bottom: 20px;
 }
+
+
 
 /*  hover for home/about/contact */
 .navbar a:hover {
     color:#f3c5c7;
 }
 
+
 /*  central part of page  */
 .central {
+    position: absolute;
     background-image:url(https://derajyojith-draft.superhi.com/laura-chouette-blurred-2.jpg);
     padding-bottom:200px;  
     background-size: cover;
     left: 0; 
-    margin-left:0px;
-    padding-top: 50px;
+    width:100%;
+    top: 70px;
+
 }
 
 
+/*body as it says*/
 body {
     background-color: #f3c5c7;
-
 }
 
 
-
+/*name*/
 h1{
     font-family: Bree Serif;
     font-size: 70px;
@@ -78,6 +90,9 @@ h1{
     margin:0px
 }
 
+
+
+/*The ug,coder part*/
 dl {
     font-family: farro;
     text-transform: uppercase;
@@ -97,3 +112,13 @@ dd {
     margin:0px;
     margin-top:10px;
 }
+
+
+p {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:700px;
+    padding-left:300px;
+    padding-right:300px;
+}
+
