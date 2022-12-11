@@ -1,0 +1,118 @@
+<html>
+    <head>  
+        <title>Deraj Yojith</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <div class="navbar">
+        <header>
+            <img src="https://derajyojith-draft.superhi.com/rdy.png">
+            <nav>
+                <a href="index.html"> Home </a>
+                <a href="about.html"> About </a>
+                <a href="contact.html"> Contact</a>
+            </nav>
+         </header>
+    </div>
+
+    <body>
+        <div class="central">
+            <h1>R.Deraj Yojith</h1>
+
+            <dl>
+                <dt>undergraduate student</dt>
+                <dd>coder</dd>
+            </dl>
+        </div>
+
+        <div class = "slides">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="https://derajyojith-draft.superhi.com/img_3058.jpg" style="width:100%">
+                    <div class="text">Some of my best pictures!</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="https://derajyojith-draft.superhi.com/img_3163.jpg" style="width:100%">
+                    <div class="text">Some of my best pictures!</div>
+                </div>
+            
+                <div class="mySlides fade">
+                        <img src="https://derajyojith-draft.superhi.com/untitled-design.jpg" style="width:100%">
+                        <div class="text">Some of my best pictures!</div>
+                    </div>
+            
+                </div>
+
+            <div class="buttons">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        </div>
+        
+            <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 3000); // Change image every 2 seconds
+                }
+            </script>
+        
+        <p>
+        POP POP
+        POPSICLE,
+        ICE ICE ICICLE
+        TEST TEST TESTING XD 
+        </p>
+    </body>
+
+    <footer class="socials">
+
+        <a href="">
+            <img src="">
+        </a>
+
+        <a href="">
+            <img src="">
+        </a>
+
+        <a href="">
+            <img src="">
+        </a>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
